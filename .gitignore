@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Private per-task capture records must never enter routine commits.
+/.agents/workflow-capture/**/*.md
+!/.agents/workflow-capture/TASK-CAPTURE-TEMPLATE.md
